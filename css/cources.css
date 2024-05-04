@@ -1,0 +1,14 @@
+ul{
+    margin: 0;
+}
+.programms-container{
+    flex-wrap: wrap;
+}
+.programms-container div {
+    width: 45%;
+}
+@media(max-width: 600px){
+    .programms-container div{
+        width: 100%;
+    }
+}

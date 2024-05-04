@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Курсы</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/cources.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="top-menu">
+        <div id="menu">
+          <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
+          <nav class="nav" id="nav">
+            <ul>
+              <li><a href="main.html">Главная</a></li>
+              <li><a href="courses.html">Курсы</a></li>
+              <li><a href="master-class.html">Мастер-классы</a></li>
+              <li><a href="gallery.html">Галерея работ</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu-bg" id="menu-bg"></div>
+        <a class="navbar-logo" href="main.html"><img src="images/logo.svg" /></a>
+        <ul class="menu-main">
+          <li><a href="main.html">Главная</a></li>
+          <li><a href="courses.html">Курсы</a></li>
+          <li><a href="master-class.html">Мастер-классы</a></li>
+          <li><a href="gallery.html">Галерея работ</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <a class="navbar-phone" href="contacts.html"><img src="images/phone.png" /></a>
+      </nav>
+    </header>
+
+    <h2>КУРСЫ</h2>
+    <main class="our-programms">
+      <div class="programms-container">
+        <div>
+          <a href="master-class.html">
+            <img src="images/cources.jpg" alt="academy" />
+            <h4>Академическая живопись</h4>
+            <section>
+              Программа рассчитана на возрастные группы:
+              <ul>
+                <li>для детей: с 12 лет</li>
+                <li>для взрослых: без ограничений</li>
+              </ul>
+            </section>
+          </a>
+        </div>
+        <div>
+          <a href="master-class.html">
+            <img src="images/cources1.jpg" alt="academy" />
+            <h4>
+              Академический рисунок и живопись для людей с нарушением слуха
+            </h4>
+            <section>
+              Программа рассчитана на возрастные группы:
+              <ul>
+                <li>для детей: с 12 лет</li>
+                <li>для взрослых: без ограничений</li>
+              </ul>
+            </section>
+          </a>
+        </div>
+        <div>
+          <a href="master-class.html">
+            <img src="images/cources2.jpg" alt="academy" />
+            <h4>Хочу рисовать</h4>
+            <section>Программа рассчитана на детей с 7 до 11 лет</section>
+          </a>
+        </div>
+        <div>
+          <a href="master-class.html">
+            <img src="images/cources3.jpg" alt="academy" />
+            <h4>Творческий рисунок для детей с нарушением слуха</h4>
+            <section>Программа рассчитана на детей с 5 до 11 лет</section>
+          </a>
+        </div>
+        <div>
+          <a href="master-class.html">
+            <img src="images/cources4.jpg" alt="academy" />
+            <h4>Курсы Леттеринга</h4>
+            <section>
+              Программа рассчитана на возрастные группы:
+              <ul>
+                <li>для детей: с 12 лет</li>
+                <li>для взрослых: без ограничений</li>
+              </ul>
+            </section>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <img src="images/logo.svg" alt="logo" />
+      <ul>
+        <li><a href="main.html">Главная</a></li>
+        <li><a href="courses.html">Курсы</a></li>
+        <li><a href="master-class.html">Мастер-классы</a></li>
+        <li><a href="gallery.html">Галерея работ</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li>
+          <?xml version="1.0" encoding="UTF-8"?>
+          <peoples>
+            <me id="positive_character">
+              <fullname>Головейко Павел</fullname>
+              <group>9 группа</group>
+              <course>1 курс</course>
+              <faculty>ФИТ</faculty>
+            </me>
+          </peoples>
+        </li>
+      </ul>
+    </footer>
+    <script>
+      function menuOnClick() {
+        document.getElementById("menu-bar").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu-bg").classList.toggle("change-bg");
+      }
+    </script>
+  </body>
+</html>
